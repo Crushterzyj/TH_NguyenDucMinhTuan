@@ -14,8 +14,6 @@ def create():
             entry=Entry(gui_cacul)
             entry.grid(row = i + 2, column = j * 2 + 1, padx = 10, pady = 5)
             entries.append(entry)
-
-
     result=Label(gui_cacul)
 
 
